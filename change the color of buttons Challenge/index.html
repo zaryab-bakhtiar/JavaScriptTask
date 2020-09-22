@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>ColorChangerChallenge</title>
+</head>
+<body>
+
+    <div class="container-4">
+        <h2 id='change-my-color'>Challenge 4: Change the color of all buttons</h2>
+
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>          
+        
+            <button class="btn btn-primary">wee</button>
+            <button class="btn btn-danger">yahoo</button>
+            <button class="btn btn-warning">google</button>
+            <button class="btn btn-success">facebook</button>
+        </div>
+        
+    </div>
+
+        <script src="./app.js"></script>
+</body>
+</html>
